@@ -1,0 +1,22 @@
+├───app.py # main app.py file to be called to start server for web app
+
+
+
+Start with 
+    __init__.py
+Then 
+    models.py
+Then
+    forms.py
+then
+    app.py
+    As you work with app.py, create routes and the corresponding htmls
+    base -> home -> welcome_user -> login -> register
+
+don't forget run the following before you start the app.py
+flask db init
+flask db migrate -m "some comment"
+flask db upgrade
+
+
+
