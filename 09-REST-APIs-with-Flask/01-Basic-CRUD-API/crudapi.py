@@ -44,7 +44,7 @@ class EmployeeNames(Resource):
 class AllEmployees(Resource):
 
     def get(self):
-        # return all but you have return a json object
+        # return all. you have to return a json object
         return {'empoyees': employees}
 
 
